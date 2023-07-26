@@ -1,9 +1,8 @@
-# On part de l'image python:3.9-slim
-FROM python:3.9-slim 
+FROM python:3.9-slim
 
-# On se place dans ce dossier dans le conteneur
-WORKDIR /usr/src/app
+WORKDIR /opt/demo/
 
+# copy whole app while being inside the folder (Dockerfile in this folder)
 COPY . .
 
 RUN pip install -r requirements.txt
