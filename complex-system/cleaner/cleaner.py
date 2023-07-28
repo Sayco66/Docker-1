@@ -26,7 +26,7 @@ def clean_csv():
     ##############################
 
     #
-    df = pd.read_csv(filename)
+    df = pd.read_csv(f"data/scrapped/{filename}")
 
     # On supprime la colonne inutile
     df = df.drop("Unnamed: 0", axis=1)

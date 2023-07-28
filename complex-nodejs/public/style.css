@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: row;
     column-gap: 24px;
+    background-color: aqua;
 }
 
 .card {
@@ -23,3 +24,4 @@ body {
 img {
     border-radius: 5px 5px 0 0;
 }
+

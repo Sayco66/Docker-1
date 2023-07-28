@@ -8,9 +8,9 @@ const port = 8080;
 // These values like `root` and `postgres` will be
 // defined in our `docker-compose-yml` file
 const client = new Client({
-  password: "root",
-  user: "root",
-  host: "postgres",
+  password: 'root',
+  user: 'root',
+  host: 'postgres',
 });
 
 // Serves a folder called `public` that we will create
